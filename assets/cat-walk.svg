@@ -1,0 +1,76 @@
+<svg width="100%" height="150" viewBox="0 0 900 150" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .paw {
+      fill: #FF69B4;
+      opacity: 0;
+      animation: pawfade 4.5s linear infinite;
+    }
+    @keyframes pawfade {
+      0%   { opacity: 0; }
+      2%   { opacity: 0.55; }
+      14%  { opacity: 0.55; }
+      20%  { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    #cat-body { animation: bob 0.5s ease-in-out infinite alternate; }
+    @keyframes bob {
+      from { transform: translateY(0px); }
+      to   { transform: translateY(-3px); }
+    }
+    .leg-f { animation: legswing 0.5s ease-in-out infinite alternate; transform-origin: center top; }
+    .leg-b { animation: legswing 0.5s ease-in-out infinite alternate-reverse; transform-origin: center top; }
+    @keyframes legswing {
+      from { transform: rotate(-18deg); }
+      to   { transform: rotate(18deg); }
+    }
+    #tail { animation: tailwag 0.7s ease-in-out infinite alternate; transform-origin: 0px 0px; }
+    @keyframes tailwag {
+      from { transform: rotate(-12deg); }
+      to   { transform: rotate(10deg); }
+    }
+  </style>
+
+  <!-- trailing pawprints -->
+  <g>
+    <ellipse class="paw" cx="60"  cy="120" rx="6" ry="4" style="animation-delay:0s"/>
+    <ellipse class="paw" cx="140" cy="118" rx="6" ry="4" style="animation-delay:0.5s"/>
+    <ellipse class="paw" cx="220" cy="121" rx="6" ry="4" style="animation-delay:1s"/>
+    <ellipse class="paw" cx="300" cy="119" rx="6" ry="4" style="animation-delay:1.5s"/>
+    <ellipse class="paw" cx="380" cy="120" rx="6" ry="4" style="animation-delay:2s"/>
+    <ellipse class="paw" cx="460" cy="118" rx="6" ry="4" style="animation-delay:2.5s"/>
+    <ellipse class="paw" cx="540" cy="121" rx="6" ry="4" style="animation-delay:3s"/>
+    <ellipse class="paw" cx="620" cy="119" rx="6" ry="4" style="animation-delay:3.5s"/>
+  </g>
+
+  <!-- walking cat, moves left to right and loops -->
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="-60,0; 960,0" keyTimes="0;1" dur="4.5s" repeatCount="indefinite"/>
+    <g id="cat-body">
+      <!-- back legs -->
+      <rect class="leg-b" x="18" y="95" width="6" height="20" rx="2" fill="#C71585"/>
+      <rect class="leg-b" x="34" y="95" width="6" height="20" rx="2" fill="#C71585"/>
+      <!-- front legs -->
+      <rect class="leg-f" x="58" y="95" width="6" height="20" rx="2" fill="#C71585"/>
+      <rect class="leg-f" x="74" y="95" width="6" height="20" rx="2" fill="#C71585"/>
+      <!-- tail -->
+      <path id="tail" d="M15,90 Q -10,70 0,45" stroke="#FF1493" stroke-width="6" fill="none" stroke-linecap="round"/>
+      <!-- body -->
+      <ellipse cx="50" cy="88" rx="38" ry="20" fill="#FF69B4"/>
+      <!-- head -->
+      <circle cx="92" cy="75" r="18" fill="#FF69B4"/>
+      <!-- ears -->
+      <polygon points="80,62 86,45 92,60" fill="#FF69B4"/>
+      <polygon points="98,60 104,44 110,62" fill="#FF69B4"/>
+      <polygon points="83,58 86,49 90,57" fill="#FFD1DC"/>
+      <polygon points="100,57 104,48 107,58" fill="#FFD1DC"/>
+      <!-- face -->
+      <circle cx="86" cy="74" r="2" fill="#2b2b2b"/>
+      <circle cx="98" cy="74" r="2" fill="#2b2b2b"/>
+      <path d="M90,80 Q92,83 94,80" stroke="#2b2b2b" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+      <!-- little gold bow (Barbie touch) -->
+      <polygon points="92,64 86,58 92,60 98,58" fill="#FFD700"/>
+      <circle cx="92" cy="60" r="2" fill="#FFB6C1"/>
+    </g>
+  </g>
+</svg>

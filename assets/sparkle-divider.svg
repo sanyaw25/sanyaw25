@@ -1,0 +1,30 @@
+<svg width="100%" height="60" viewBox="0 0 900 60" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .line { stroke-dasharray: 900; stroke-dashoffset: 900; animation: draw 3s ease forwards infinite; }
+    @keyframes draw { 0% { stroke-dashoffset: 900; } 40% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: 0; } }
+    .star { opacity: 0; animation: pop 3s ease infinite; }
+    @keyframes pop {
+      0%, 10% { opacity: 0; transform: scale(0.3); }
+      20% { opacity: 1; transform: scale(1.1); }
+      30% { opacity: 1; transform: scale(1); }
+      90% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+  </style>
+  <line class="line" x1="20" y1="30" x2="880" y2="30" stroke="#FFD1DC" stroke-width="2"/>
+  <g class="star" style="animation-delay:0.4s" transform="translate(150,30)">
+    <polygon points="0,-10 3,-3 10,0 3,3 0,10 -3,3 -10,0 -3,-3" fill="#FFD700"/>
+  </g>
+  <g class="star" style="animation-delay:0.9s" transform="translate(320,30)">
+    <polygon points="0,-7 2,-2 7,0 2,2 0,7 -2,2 -7,0 -2,-2" fill="#FF69B4"/>
+  </g>
+  <g class="star" style="animation-delay:1.3s" transform="translate(500,30)">
+    <polygon points="0,-10 3,-3 10,0 3,3 0,10 -3,3 -10,0 -3,-3" fill="#FF1493"/>
+  </g>
+  <g class="star" style="animation-delay:0.6s" transform="translate(670,30)">
+    <polygon points="0,-7 2,-2 7,0 2,2 0,7 -2,2 -7,0 -2,-2" fill="#FFD700"/>
+  </g>
+  <g class="star" style="animation-delay:1.1s" transform="translate(800,30)">
+    <polygon points="0,-8 2.5,-2.5 8,0 2.5,2.5 0,8 -2.5,2.5 -8,0 -2.5,-2.5" fill="#FFB6C1"/>
+  </g>
+</svg>
