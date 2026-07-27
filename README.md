@@ -5,7 +5,7 @@
 <sub>Computer Science Engineering · Bennett University · Student</sub>
 
 </div>
-
+<img src="assets/divider.svg" width="100%" alt="divider" />
 <div align="center">
 
 ## About Me
@@ -138,6 +138,8 @@ Outside of core security work, I explore adjacent research: adversarial robustne
 
 </div>
 
+<img src="assets/sparkle-divider.svg" width="100%" alt="divider" />
+
 <div align="center">
 
 ## My Recent Articles
@@ -246,7 +248,16 @@ Hybrid-encryption file transfer combining RSA key exchange with AES symmetric en
   </a>
 </p>
 </div>
+<img src="assets/divider.svg" width="100%" alt="divider" />
+
+##  License
+
+This repository is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
 
 © 2026 Sanya Wadhawan
 
-If this README inspired your own profile, that's awesome! If you reuse substantial portions of the design or content, please include a link back to this repository.
+If this README inspired your own profile, that's awesome! If you reuse or adapt substantial portions of the design or content, please provide appropriate attribution and include a link back to this repository.
+
+Some assets may include AI-assisted content or third-party services (such as badges, widgets, and externally hosted resources), which remain subject to their respective licenses and terms.
+
+See the [LICENSE](LICENSE) file for the full license text.
