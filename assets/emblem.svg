@@ -1,0 +1,49 @@
+<svg viewBox="0 0 300 320" width="180" height="192" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="emblemStroke" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F5EFE6"/>
+      <stop offset="55%" stop-color="#C9A24B"/>
+      <stop offset="100%" stop-color="#B76E79"/>
+    </linearGradient>
+    <radialGradient id="ringGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C9A24B" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#C9A24B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ambient pulse ring -->
+  <circle cx="150" cy="150" r="120" fill="url(#ringGlow)">
+    <animate attributeName="r" values="105;125;105" dur="4.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="4.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- shield outline -->
+  <path id="shieldPath" d="M150 24 L246 62 L246 156 C246 220 205 262 150 296
+           C95 262 54 220 54 156 L54 62 Z"
+        fill="none" stroke="url(#emblemStroke)" stroke-width="2.5"
+        stroke-linejoin="round" stroke-linecap="round"
+        stroke-dasharray="760" stroke-dashoffset="760">
+    <animate attributeName="stroke-dashoffset" from="760" to="0" dur="2.6s" fill="freeze" begin="0.1s"/>
+  </path>
+
+  <!-- inner hairline -->
+  <path d="M150 46 L226 78 L226 154 C226 208 194 242 150 270
+           C106 242 74 208 74 154 L74 78 Z"
+        fill="none" stroke="#C9A24B" stroke-width="0.75" stroke-opacity="0.35"/>
+
+  <!-- geometric raptor-crest silhouette, original low-poly linework -->
+  <g stroke="url(#emblemStroke)" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" fill="none"
+     stroke-dasharray="420" stroke-dashoffset="420">
+    <path d="M104 190 L128 140 L150 100 L168 130 L196 150 L172 158 L182 186
+             L156 176 L150 202 L134 180 Z"/>
+    <animate attributeName="stroke-dashoffset" from="420" to="0" dur="1.8s" fill="freeze" begin="1.0s"/>
+  </g>
+
+  <!-- eye glint -->
+  <circle cx="150" cy="140" r="2.6" fill="#F5EFE6" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;0.5;1" dur="3.2s" begin="2.6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- base rule -->
+  <line x1="118" y1="284" x2="182" y2="284" stroke="#C9A24B" stroke-width="1" stroke-opacity="0.5"/>
+</svg>
