@@ -208,13 +208,16 @@ Hybrid-encryption file transfer combining RSA key exchange with AES symmetric en
 
 <div align="center">
 
-## Live Threat Feed
+## Threats around the world
+<p align="center">
+<img src="assets/annabelle.svg" width="800">
+</p>
+
+<sub>Just Kidding, Here you go!</sub>
 
 </div>
 
 <img src="assets/threat-feed.svg" width="100%" alt="scrolling ticker of recently published CVEs, pulled live from the NVD" />
-
-<img src="assets/divider.svg" width="100%" alt="divider" />
 
 <div align="center">
 
