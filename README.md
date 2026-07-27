@@ -147,8 +147,6 @@ Outside of core security work, I explore adjacent research: adversarial robustne
 </div>
 
 <table>
-<tr>
-<td width="15%" align="center"><img src="assets/icon-credis.svg" width="52" alt="Credis icon"/></td>
 <td width="85%">
 
 **[Credis — Academic Credit Transfer System](https://github.com/sanyaw25)**
@@ -158,8 +156,6 @@ Embedding-based semantic similarity engine for large-scale course matching, with
 
 </td>
 </tr>
-<tr>
-<td align="center"><img src="assets/icon-beunited.svg" width="52" alt="BeUnited icon"/></td>
 <td>
 
 **[BeUnited — Digital Campus Platform](https://github.com/sanyaw25)**
@@ -169,8 +165,6 @@ Full-stack platform centralizing internships, events, and student organizations,
 
 </td>
 </tr>
-<tr>
-<td align="center"><img src="assets/icon-stegram.svg" width="52" alt="Stegram icon"/></td>
 <td>
 
 **[Stegram — Secure File Transfer System](https://github.com/sanyaw25)**
@@ -187,14 +181,6 @@ Hybrid-encryption file transfer combining RSA key exchange with AES symmetric en
 <div align="center">
 
 ## GitHub Overview
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=sanyaw25&show_icons=true&theme=radical&title_color=C9A24B&icon_color=C9A24B&text_color=F5EFE6&bg_color=0D1117&border_color=C9A24B" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=sanyaw25&theme=radical&background=0D1117&ring=C9A24B&fire=B76E79&currStreakLabel=C9A24B&border=C9A24B" />
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=sanyaw25&theme=radical&no-frame=true&column=4&margin-w=10&margin-h=10" />
-
 <br/>
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=sanyaw25&theme=react-dark&bg_color=0D1117&color=C9A24B&line=C9A24B&point=F5EFE6&area=true&hide_border=true" alt="contribution activity graph" />
@@ -215,29 +201,12 @@ Hybrid-encryption file transfer combining RSA key exchange with AES symmetric en
 
 <img src="assets/threat-feed.svg" width="100%" alt="scrolling ticker of recently published CVEs, pulled live from the NVD" />
 
-<div align="center"><sub>Real data — pulled from the public NVD API every 6 hours by <code>.github/workflows/threat-feed.yml</code>, not a static image.</sub></div>
-
 <img src="assets/divider.svg" width="100%" alt="divider" />
 
 <div align="center">
-
-## Security Quiz
-
-<sub>Since you are already here, learn something before you go</sub>
+## Profiles
 
 </div>
-
-<details>
-<summary><b>What are World Models?</b></summary>
-<br/>
-
-Relay attacks — where two devices extend the effective range between a car and its key fob to trick the vehicle into unlocking. Distance-bounding measures round-trip signal timing to enforce a maximum physical proximity. This is one of the mitigations covered in my ICAISI'25 paper on vehicle remote keyless entry security.
-</details>
-
-
-
-<img src="assets/sparkle-divider.svg" width="100%" alt="divider" />
-## Profiles
 
 <p align="center">
   <a href="https://www.linkedin.com/in/sanya-wadhawan1/">
