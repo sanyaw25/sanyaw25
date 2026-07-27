@@ -41,7 +41,7 @@ Outside of core security work, I explore adjacent research: adversarial robustne
 <tr>
 <td align="center">
 
-<img src="assets/clock (1).svg" width="340" alt="live local clock, auto-refreshed by GitHub Actions" /><br/>
+<img src="assets/clock-img.svg" width="340" alt="live local clock, auto-refreshed by GitHub Actions" /><br/>
 
 </td>
 <td align="center">
