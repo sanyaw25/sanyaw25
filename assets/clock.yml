@@ -1,0 +1,25 @@
+name: refresh live clock
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # GitHub throttles short intervals on free runners; effective refresh is usually every 15-30 min
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate clock.svg
+        run: python3 scripts/generate_clock.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/clock.svg
+          git diff --staged --quiet || git commit -m "chore: refresh live clock"
+          git push

@@ -1,0 +1,56 @@
+<svg viewBox="0 0 1200 230" width="100%" height="230" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="termBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#12172A"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="1192" height="222" rx="10" fill="url(#termBg)" stroke="#C9A24B" stroke-width="1.4"/>
+
+  <rect x="4" y="4" width="1192" height="30" rx="10" fill="#161B29"/>
+  <circle cx="26" cy="19" r="6" fill="#B76E79"/>
+  <circle cx="46" cy="19" r="6" fill="#C9A24B"/>
+  <circle cx="66" cy="19" r="6" fill="#F5EFE6" opacity="0.6"/>
+  <text x="600" y="24" text-anchor="middle" font-family="Courier New, monospace" font-size="12" fill="#8B93A7">guest@sanya — zsh</text>
+
+  <!-- one continuous 16s loop: everything types in, holds, cycles status, then fades together and restarts -->
+  <g font-family="Courier New, monospace" font-size="16">
+    <text x="30" y="66" fill="#C9A24B" opacity="0">
+      guest@sanya:~$ whoami
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.019;0.02;0.965;1" dur="16s" repeatCount="indefinite"/>
+    </text>
+    <text x="30" y="92" fill="#F5EFE6" opacity="0">
+      Sanya Wadhawan
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.089;0.09;0.965;1" dur="16s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="30" y="122" fill="#C9A24B" opacity="0">
+      guest@sanya:~$ cat currently.txt
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.189;0.19;0.965;1" dur="16s" repeatCount="indefinite"/>
+    </text>
+    <text x="30" y="148" fill="#F5EFE6" opacity="0">
+      Research internship @ Georgia Tech
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.279;0.28;0.965;1" dur="16s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="30" y="178" fill="#C9A24B" opacity="0">
+      guest@sanya:~$ status --uptime
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.369;0.37;0.965;1" dur="16s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- cycling status, all inside the same 16s master loop -->
+    <text x="30" y="204" fill="#B76E79" opacity="0">
+      playing chess ♟
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.439;0.44;0.618;0.62;1" dur="16s" repeatCount="indefinite"/>
+    </text>
+    <text x="30" y="204" fill="#B76E79" opacity="0">
+      asleep 💤
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.618;0.62;0.798;0.80;1" dur="16s" repeatCount="indefinite"/>
+    </text>
+    <text x="30" y="204" fill="#B76E79" opacity="0">
+      one more Duolingo lesson before bed
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.798;0.80;0.965;0.966;1" dur="16s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>
