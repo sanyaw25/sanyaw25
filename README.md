@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=3200&pause=1200&color=C9A24B&center=true&vCenter=true&width=680&lines=Hi%2C+I'm+Sanya+Wadhawan;Securing+Systems+by+Day+%F0%9F%9B%A1%EF%B8%8F;Researching+Vulnerabilities+by+Night+%F0%9F%94%8E" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=3200&pause=1200&color=C9A24B&center=true&vCenter=true&width=680&lines=Hi%2C+I'm+Sanya+Wadhawan;Interning+by+Day+%F0%9F%9B%A1%EF%B8%8F;Blogging+On+Medium+by+Night+%F0%9F%94%8E" alt="Typing SVG" />
 
 <sub>Computer Science Engineering · Bennett University · Student</sub>
 
@@ -59,7 +59,7 @@ Outside of core security work, I explore adjacent research: adversarial robustne
 
 <div align="center">
 
-## Technologia
+## Technologia Stack
 
 **Languages**
 
@@ -93,7 +93,7 @@ Outside of core security work, I explore adjacent research: adversarial robustne
 
 </div>
 
-<img src="assets/divider.svg" width="100%" alt="divider" />
+<img src="assets/sparkle-divider.svg" width="100%" alt="divider" />
 
 <div align="center">
 
@@ -119,7 +119,7 @@ Outside of core security work, I explore adjacent research: adversarial robustne
 
 </div>
 
-<img src="assets/sparkle-divider.svg" width="100%" alt="divider" />
+<img src="assets/divider.svg" width="100%" alt="divider" />
 
 <div align="center">
 
@@ -138,7 +138,7 @@ Outside of core security work, I explore adjacent research: adversarial robustne
 
 </div>
 
-<img src="assets/divider.svg" width="100%" alt="divider" />
+<img src="assets/sparkle-divider.svg" width="100%" alt="divider" />
 
 <div align="center">
 
@@ -205,7 +205,7 @@ Hybrid-encryption file transfer combining RSA key exchange with AES symmetric en
 
 </div>
 
-<img src="assets/divider.svg" width="100%" alt="divider" />
+<img src="assets/sparkle-divider.svg" width="100%" alt="divider" />
 
 <div align="center">
 
@@ -235,27 +235,9 @@ Relay attacks — where two devices extend the effective range between a car and
 </details>
 
 <details>
-<summary><b>What's the difference between IDOR and broken access control?</b></summary>
-<br/>
 
-IDOR (Insecure Direct Object Reference) is a specific case of broken access control — it happens when an app exposes a reference to an internal object (like <code>/invoice/1042</code>) without verifying the requester is authorized to access that particular object. Broken access control is the broader OWASP category covering any failure to properly enforce what authenticated users are allowed to do.
-</details>
 
-<details>
-<summary><b>Why does adversarial retraining improve malware classifier robustness?</b></summary>
-<br/>
-
-It exposes the model to deliberately perturbed samples — inputs crafted to fool the classifier — during training, so the decision boundary shifts to account for those perturbations instead of overfitting to a clean-data distribution. In my ongoing work on the RawMal-TF dataset, this approach cut successful adversarial attacks by 40%.
-</details>
-
-<details>
-<summary><b>What does a Gitleaks / Semgrep / Trivy pipeline stage actually catch?</b></summary>
-<br/>
-
-Gitleaks scans for committed secrets (API keys, credentials), Semgrep does static analysis for insecure code patterns, and Trivy scans dependencies and container images for known CVEs. Running all three at CI time catches classes of issues that code review alone tends to miss.
-</details>
-
-<img src="assets/divider.svg" width="100%" alt="divider" />
+<img src="assets/sparkle-divider.svg" width="100%" alt="divider" />
 
 ### Get in Touch
 
