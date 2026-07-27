@@ -145,6 +145,10 @@ Outside of core security work, I explore adjacent research: adversarial robustne
 ## My Recent Articles
 
 <!-- BLOG-POST-LIST:START -->
+- [ArgoCD RBAC SetUp](https://medium.com/@sanyaw12722/argocd-rbac-setup-571c4eaceedb?source=rss-8ef93f66f5f4------2)
+- [Database encryption during exports](https://medium.com/@sanyaw12722/database-encryption-during-exports-2387f3b64d2c?source=rss-8ef93f66f5f4------2)
+- [Want approvals before someone merges a PR on Github?](https://medium.com/@sanyaw12722/want-approvals-before-someone-merges-a-pr-on-github-f7822a8f0b06?source=rss-8ef93f66f5f4------2)
+- [Methodology for SAST](https://medium.com/@sanyaw12722/methodology-for-sast-da95a36c1a48?source=rss-8ef93f66f5f4------2)
 <!-- BLOG-POST-LIST:END -->
 
 </div>
