@@ -33,7 +33,7 @@ svg = f'''<svg viewBox="0 0 420 150" width="420" height="150" xmlns="http://www.
 </svg>
 '''
 
-with open("assets/clock (1).svg", "w") as f:
+with open("assets/clock-img.svg", "w") as f:
     f.write(svg)
 
-print(f"clock.svg written for {synced_str}")
+print(f"clock-img.svg written for {synced_str}")
