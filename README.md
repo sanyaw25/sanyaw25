@@ -142,6 +142,15 @@ Outside of core security work, I explore adjacent research: adversarial robustne
 
 <div align="center">
 
+## My Recent Articles
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+</div>
+
+<div align="center">
+
 ## Featured Projects
 
 </div>
