@@ -31,8 +31,6 @@ Outside of core security work, I explore adjacent research: adversarial robustne
 
 <img src="assets/owl-mail.svg" width="100%" alt="an owl flying across delivering a letter with the latest update" />
 
-<div align="center"><sub>Currently pursuing a research internship at Georgia Tech University.</sub></div>
-
 <img src="assets/terminal.svg" width="100%" alt="animated terminal boot log" />
 
 <div align="center">
@@ -43,8 +41,7 @@ Outside of core security work, I explore adjacent research: adversarial robustne
 <tr>
 <td align="center">
 
-<img src="assets/clock.svg" width="340" alt="live local clock, auto-refreshed by GitHub Actions" /><br/>
-<sub>refreshed automatically by <code>.github/workflows/clock.yml</code> — see setup note below</sub>
+<img src="assets/clock (1).svg" width="340" alt="live local clock, auto-refreshed by GitHub Actions" /><br/>
 
 </td>
 <td align="center">
@@ -62,7 +59,7 @@ Outside of core security work, I explore adjacent research: adversarial robustne
 
 <div align="center">
 
-## Technical Toolkit
+## Technologia
 
 **Languages**
 
@@ -122,7 +119,7 @@ Outside of core security work, I explore adjacent research: adversarial robustne
 
 </div>
 
-<img src="assets/divider.svg" width="100%" alt="divider" />
+<img src="assets/sparkle-divider.svg" width="100%" alt="divider" />
 
 <div align="center">
 
@@ -138,37 +135,6 @@ Outside of core security work, I explore adjacent research: adversarial robustne
 <tr><td><b>SheFi Cohort</b> — Accepted, full scholarship</td><td align="right">International</td></tr>
 <tr><td><b>VBYLD '26</b> — Progressed to State Level</td><td align="right">State</td></tr>
 </table>
-
-</div>
-
-<img src="assets/divider.svg" width="100%" alt="divider" />
-
-<div align="center">
-
-## Areas of Focus
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**Security Engineering**
-- Application &amp; cloud security, DevSecOps pipelines
-- Vulnerability research and responsible-disclosure bug bounty work
-- SIEM analysis, log correlation, and incident triage
-
-</td>
-<td width="50%" valign="top">
-
-**Applied Research**
-- Adversarial robustness in ML-based malware detection
-- Embedded systems &amp; automotive key-fob cryptography
-- Observability tooling and infrastructure-as-code automation
-
-</td>
-</tr>
-</table>
-
-<sub>Off-line: sketching secure architecture diagrams that are, admittedly, a little too aesthetic for a whiteboard.</sub>
 
 </div>
 
@@ -290,31 +256,6 @@ Gitleaks scans for committed secrets (API keys, credentials), Semgrep does stati
 </details>
 
 <img src="assets/divider.svg" width="100%" alt="divider" />
-
-<details>
-<summary align="center"><b>Just for fun</b></summary>
-<br/>
-<img src="assets/arcade.svg" width="100%" alt="pixel raptor chasing a bug across a retro arcade screen" />
-</details>
-
-<img src="assets/divider.svg" width="100%" alt="divider" />
-
-<details>
-<summary align="center">How the live pieces actually work</summary>
-<br/>
-
-Two scheduled GitHub Actions live in <code>.github/workflows/</code>:
-
-- **`clock.yml`** runs every ~15 minutes, regenerates <code>assets/clock.svg</code> with the current IST time via <code>scripts/generate_clock.py</code>, and commits it back to the repo.
-- **`threat-feed.yml`** runs every 6 hours, pulls the latest published CVEs from the public NVD API via <code>scripts/generate_threat_feed.py</code>, and commits the refreshed ticker.
-
-GitHub strips <code>&lt;script&gt;</code> tags from README-rendered files, so neither can tick in real time inside the page itself — this scheduled-commit pattern is the actual mechanism behind it. Both need this repo's default branch to have Actions enabled with write permissions (Settings → Actions → General → Workflow permissions → Read and write) to commit their output.
-
-</details>
-
-<img src="assets/divider.svg" width="100%" alt="divider" />
-
-<div align="center">
 
 ### Get in Touch
 
