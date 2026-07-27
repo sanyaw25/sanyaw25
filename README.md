@@ -217,10 +217,10 @@ Hybrid-encryption file transfer combining RSA key exchange with AES symmetric en
 <img src="assets/divider.svg" width="100%" alt="divider" />
 
 <div align="center">
+
 ## Profiles
 
 </div>
-
 <p align="center">
   <a href="https://www.linkedin.com/in/sanya-wadhawan1/">
     <img src="https://skillicons.dev/icons?i=linkedin" height="48" alt="LinkedIn"/>
@@ -243,3 +243,7 @@ Hybrid-encryption file transfer combining RSA key exchange with AES symmetric en
   </a>
 </p>
 </div>
+
+© 2026 Sanya Wadhawan
+
+If this README inspired your own profile, that's awesome! If you reuse substantial portions of the design or content, please include a link back to this repository.
