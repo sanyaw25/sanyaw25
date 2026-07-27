@@ -6,13 +6,12 @@
 
 </div>
 
-<img src="assets/divider.svg" width="100%" alt="divider" />
-
 <div align="center">
 
 ## About Me
 
 </div>
+
 
 <table align="center">
 <tr>
@@ -22,6 +21,7 @@ Final-year Computer Science undergraduate with a focus on **application security
 
 Outside of core security work, I explore adjacent research: adversarial robustness in malware classification, embedded key-fob cryptography, and applied machine learning for threat detection.
 
+
 </td>
 <td width="45%" align="center">
 <img src="assets/emblem.svg" width="170" alt="signature emblem" />
@@ -29,13 +29,15 @@ Outside of core security work, I explore adjacent research: adversarial robustne
 </tr>
 </table>
 
-<img src="assets/owl-mail.svg" width="100%" alt="an owl flying across delivering a letter with the latest update" />
+
+
 
 <img src="assets/terminal.svg" width="100%" alt="animated terminal boot log" />
+<img src="assets/owl-mail.svg" width="100%" alt="an owl flying across delivering a letter with the latest update" />
 
 <div align="center">
 
-### Right Now
+### Last Updated
 
 <table>
 <tr>
@@ -136,8 +138,6 @@ Outside of core security work, I explore adjacent research: adversarial robustne
 
 </div>
 
-<img src="assets/sparkle-divider.svg" width="100%" alt="divider" />
-
 <div align="center">
 
 ## My Recent Articles
@@ -148,6 +148,8 @@ Outside of core security work, I explore adjacent research: adversarial robustne
 - [Want approvals before someone merges a PR on Github?](https://medium.com/@sanyaw12722/want-approvals-before-someone-merges-a-pr-on-github-f7822a8f0b06?source=rss-8ef93f66f5f4------2)
 - [Methodology for SAST](https://medium.com/@sanyaw12722/methodology-for-sast-da95a36c1a48?source=rss-8ef93f66f5f4------2)
 <!-- BLOG-POST-LIST:END -->
+
+<img src="assets/divider.svg" width="100%" alt="divider" />
 
 </div>
 
