@@ -4,7 +4,6 @@ on:
   schedule:
     - cron: "*/15 * * * *"
   workflow_dispatch:
-
 jobs:
   refresh:
     permissions:
@@ -12,10 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - name: Generate clock-img.svg
         run: python3 scripts/generate_clock.py
-
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
