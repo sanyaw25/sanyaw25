@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generates assets/clock (1).svg showing the current time in IST.
+Generates assets/clock-img.svg showing the current time in IST.
 Meant to be run on a schedule by .github/workflows/clock.yml,
 which commits the regenerated file back to the repo. GitHub
 strips <script> from README-rendered SVGs, so this is the only
