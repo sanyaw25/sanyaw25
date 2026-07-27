@@ -55,8 +55,6 @@ Outside of core security work, I explore adjacent research: adversarial robustne
 
 </div>
 
-<img src="assets/divider.svg" width="100%" alt="divider" />
-
 <div align="center">
 
 ## Technologia Stack
