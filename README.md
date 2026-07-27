@@ -126,14 +126,14 @@ Outside of core security work, I explore adjacent research: adversarial robustne
 ## Achievements
 
 <table>
-<tr><td width="70%"><b>Flipkart Grid 8.0</b> — Semi-Finalist</td><td align="right">National</td></tr>
-<tr><td><b>IET Scholarship</b> — Top 150 of 48,000+ applicants</td><td align="right">National</td></tr>
-<tr><td><b>Meesho ScriptedByHer 2.0</b> — Top 500 of 38,000+ applicants</td><td align="right">National</td></tr>
-<tr><td><b>Akamai Codeathon EmpowHer 3.0</b> — Top 150</td><td align="right">National</td></tr>
-<tr><td><b>Tata Imagination Challenge '24</b> — Semi-Finalist</td><td align="right">National</td></tr>
-<tr><td><b>CompSIA '25 / DoSCI '25 Ideathon</b> — 1st Runner-Up</td><td align="right">Inter-University</td></tr>
-<tr><td><b>SheFi Cohort</b> — Accepted, full scholarship</td><td align="right">International</td></tr>
-<tr><td><b>VBYLD '26</b> — Progressed to State Level</td><td align="right">State</td></tr>
+<tr><td width="70%"><b>Flipkart Grid 8.0</b> - Semi-Finalist</td><td align="right">National</td></tr>
+<tr><td><b>IET Scholarship</b> - Top 150 of 48,000+ applicants</td><td align="right">National</td></tr>
+<tr><td><b>Meesho ScriptedByHer 2.0</b> - Top 500 of 38,000+ applicants</td><td align="right">National</td></tr>
+<tr><td><b>Akamai Codeathon EmpowHer 3.0</b> - Top 150</td><td align="right">National</td></tr>
+<tr><td><b>Tata Imagination Challenge '24</b> - Semi-Finalist</td><td align="right">National</td></tr>
+<tr><td><b>CompSIA '25 / DoSCI '25 Ideathon</b> - 1st Runner-Up</td><td align="right">Inter-University</td></tr>
+<tr><td><b>SheFi Cohort</b> - Accepted, full scholarship</td><td align="right">International</td></tr>
+<tr><td><b>VBYLD '26</b> - Progressed to State Level</td><td align="right">State</td></tr>
 </table>
 
 </div>
@@ -223,26 +223,41 @@ Hybrid-encryption file transfer combining RSA key exchange with AES symmetric en
 
 ## Security Quiz
 
-<sub>Click a question — these are genuine expand/collapse elements, not images.</sub>
+<sub>Since you are already here, learn something before you go</sub>
 
 </div>
 
 <details>
-<summary><b>What attack does a distance-bounding protocol defend against in keyless entry systems?</b></summary>
+<summary><b>What are World Models?</b></summary>
 <br/>
 
 Relay attacks — where two devices extend the effective range between a car and its key fob to trick the vehicle into unlocking. Distance-bounding measures round-trip signal timing to enforce a maximum physical proximity. This is one of the mitigations covered in my ICAISI'25 paper on vehicle remote keyless entry security.
 </details>
 
-<details>
 
 
 <img src="assets/sparkle-divider.svg" width="100%" alt="divider" />
+## Profiles
 
-### Get in Touch
+<p align="center">
+  <a href="https://www.linkedin.com/in/sanya-wadhawan1/">
+    <img src="https://skillicons.dev/icons?i=linkedin" height="48" alt="LinkedIn"/>
+  </a>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=C9A24B)](https://linkedin.com/in/sanya-wadhawan1)
-[![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=C9A24B)](mailto:e23cseu0872@bennett.edu.in)
-[![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=C9A24B)](https://github.com/sanyaw25)
+  <a href="mailto:e23cseu0872@bennett.edu.in">
+    <img src="https://skillicons.dev/icons?i=gmail" height="48" alt="Email"/>
+  </a>
 
+  <a href="https://github.com/sanyaw25">
+    <img src="https://skillicons.dev/icons?i=github" height="48" alt="GitHub"/>
+  </a>
+
+  <a href="https://leetcode.com/u/Sanya_W/">
+    <img src="https://cdn.simpleicons.org/leetcode/C9A24B" height="48" alt="LeetCode"/>
+  </a>
+
+  <a href="https://medium.com/@sanyaw12722">
+    <img src="https://cdn.simpleicons.org/medium/C9A24B" height="48" alt="Medium"/>
+  </a>
+</p>
 </div>
