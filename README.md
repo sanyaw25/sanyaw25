@@ -126,14 +126,14 @@ Outside of core security work, I explore adjacent research: adversarial robustne
 ## Achievements
 
 <table>
-<tr><td width="70%"><b>Flipkart Grid 8.0</b> - Semi-Finalist</td><td align="right">National</td></tr>
-<tr><td><b>IET Scholarship</b> - Top 150 of 48,000+ applicants</td><td align="right">National</td></tr>
-<tr><td><b>Meesho ScriptedByHer 2.0</b> - Top 500 of 38,000+ applicants</td><td align="right">National</td></tr>
-<tr><td><b>Akamai Codeathon EmpowHer 3.0</b> - Top 150</td><td align="right">National</td></tr>
-<tr><td><b>Tata Imagination Challenge '24</b> - Semi-Finalist</td><td align="right">National</td></tr>
-<tr><td><b>CompSIA '25 / DoSCI '25 Ideathon</b> - 1st Runner-Up</td><td align="right">Inter-University</td></tr>
-<tr><td><b>SheFi Cohort</b> - Accepted, full scholarship</td><td align="right">International</td></tr>
-<tr><td><b>VBYLD '26</b> - Progressed to State Level</td><td align="right">State</td></tr>
+<tr><td width="70%"><b>Flipkart Grid 8.0</b> - Semi-Finalist</td></tr>
+<tr><td><b>IET Scholarship</b> - Top 150 of 48,000+ applicants</td></tr>
+<tr><td><b>Meesho ScriptedByHer 2.0</b> - Top 500 of 38,000+ applicants</td></tr>
+<tr><td><b>Akamai Codeathon EmpowHer 3.0</b> - Top 150</td></tr>
+<tr><td><b>Tata Imagination Challenge '24</b> - Semi-Finalist</td></tr>
+<tr><td><b>CompSIA '25 / DoSCI '25 Ideathon</b> - 1st Runner-Up</td></tr>
+<tr><td><b>SheFi Cohort</b> - Accepted, full scholarship</td></tr>
+<tr><td><b>VBYLD '26</b> - Progressed to State Level</td></tr>
 </table>
 
 </div>
