@@ -15,11 +15,9 @@
 
 <table align="center">
 <tr>
-<td width="55%" valign="top">
+<td width="55%" valign="center">
 
 Final-year Computer Science undergraduate with a focus on **cybersecurity, DevSecOps, software engineering, and machine learning**. My interests span cloud security, vulnerability assessment, malware analysis, security monitoring, backend systems, and secure software development. I enjoy building secure systems, automating security workflows, and applying machine learning to cybersecurity challenges.
-Outside of core security work, I explore adjacent research: adversarial robustness in malware classification, embedded key-fob cryptography, and applied machine learning for threat detection.
-
 
 </td>
 <td width="45%" align="center">
