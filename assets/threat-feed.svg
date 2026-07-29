@@ -16,7 +16,7 @@
   </defs>
 
   <rect x="0" y="0" width="1200" height="70" rx="8" fill="url(#feedBg)" stroke="#C9A24B" stroke-width="1"/>
-  <text x="16" y="16" font-family="Courier New, monospace" font-size="10" fill="#8B93A7" letter-spacing="2">LIVE THREAT FEED · NVD · UPDATED 2026-07-28 14:11 UTC</text>
+  <text x="16" y="16" font-family="Courier New, monospace" font-size="10" fill="#8B93A7" letter-spacing="2">LIVE THREAT FEED · NVD · UPDATED 2026-07-29 02:48 UTC</text>
 
   <g mask="url(#edgeFade)">
     <g>
