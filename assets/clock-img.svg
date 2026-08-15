@@ -7,8 +7,8 @@
   </defs>
   <rect x="2" y="2" width="416" height="146" rx="12" fill="url(#clockBg)" stroke="#C9A24B" stroke-width="1.4"/>
   <text x="30" y="40" font-family="Courier New, monospace" font-size="13" fill="#8B93A7" letter-spacing="2">LOCAL TIME · NEEMRANA, IN</text>
-  <text x="30" y="98" font-family="Courier New, monospace" font-size="52" fill="#F5EFE6" letter-spacing="4">14:32</text>
+  <text x="30" y="98" font-family="Courier New, monospace" font-size="52" fill="#F5EFE6" letter-spacing="4">15:12</text>
   <text x="30" y="126" font-family="Courier New, monospace" font-size="14" fill="#C9A24B">Saturday, 15 Aug 2026</text>
   <circle cx="388" cy="30" r="4" fill="#C9A24B"/>
-  <text x="374" y="118" font-family="Courier New, monospace" font-size="10" fill="#8B93A7" text-anchor="end">synced 14:32:33 IST</text>
+  <text x="374" y="118" font-family="Courier New, monospace" font-size="10" fill="#8B93A7" text-anchor="end">synced 15:12:08 IST</text>
 </svg>
